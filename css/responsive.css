@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden !important;
+    }
+
+    #top .text-vertical-center h3{
+        margin-left: 30%;
+    }   
+
+    #about{
+        margin-left: 10%;
+    }
+
+    .header h3{
+      text-align: center;
+    }
+
+    .blk {
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    .blk2 {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .callout {
+        display: table;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        background: url(../img/callout.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .callout .text-vertical-center h1{
+        text-align: center;
+        font-size: 25px;
+        margin-left: 30%;
+    }
+    
+    #portfolio .text-center{
+        overflow-x: hidden !important;
+        padding: 0px !important;
+    }
+
+    .portfolio-item{
+        padding: 0px !important;
+        width: 100% !important;
+    }
+
+    .call-to-action .text-center h3{
+        overflow-x: hidden !important;
+        margin-left: 30% !important;
+    }
+
+    footer{
+        overflow-x: hidden !important;
+        margin-right: 20%; 
+    }
+  }
